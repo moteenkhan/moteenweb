@@ -290,6 +290,27 @@ color:#F90CA7;
 	}
 	
 	
+nav a:before{
+content:"";
+position:absolute;
+top:0;
+width:0;
+height:33px;
+border-bottom:3px solid #f90ca7 !important;
+transition:all 0.4s ;
+}
+
+	nav a:hover:before{
+width:85%;
+
+
+}
+
+nav a{
+	text-transform:uppercase;
+	position:relative;
+}
+	
 	
 	
 	
@@ -300,7 +321,7 @@ color:#F90CA7;
 <!-- Image and text -->
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"> <h2><span id="h">Moteen</span>Web</h2> </a>
+   <h2><span id="h">Moteen</span>Web</h2> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
