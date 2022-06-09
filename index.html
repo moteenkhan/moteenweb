@@ -32,6 +32,9 @@ position:relative;
 
 
 }
+body{
+    overflow-x: hidden;
+}
 
 .hh h1{
 	position:absolute;
@@ -315,7 +318,12 @@ nav a{
 	color:white;
 	font-weight:bold;
 }	
-	
+	.card{
+background:#f1b904;
+background-size:100% 100%;
+
+
+}	
 	
 	
 	
@@ -357,19 +365,63 @@ nav a{
 
 
 
+
+
+
 <div class="container-fluid" id="main">
 <div class="row">
 <div class="col-12 ">
 <div class="hh"><h1>We're a digital agency.</h1>
 <div class="btn-group bg">
 <button type="button" class="btn btn-outline-secondary m-2 bt1" >Getting Started</button>
-<button type="button" class="btn btn-outline-info m-2 " >Sign in</button>
+<button type="button" class="btn btn-outline-info m-2"  data-toggle="modal" data-target="#exampleModalCenter" >Sign in</button>
 </div>
 </div>
 </div>
 </div>
 </div>
 
+
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+ 
+     
+								
+								
+								
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+								
+								<div class="signup-container">
+
+					<div class="card">
+						<div ="inner-box">
+							<div class="card1">
+								<h2>LOGIN</h2>
+									<form>
+										<input type="email" class="input-box" placeholder="Your Email Id" required>
+										<input type="password" class="input-box" placeholder="Password" required>
+										<button type="submit" class="submit-button"> Submit</button><br>
+										<input type="checkbox"><span>Remember Me</span><br>
+									</form>
+									<a href="#"><button type="button" class="btnnew">Don't have account? Sign up</button></a><br>
+									<a style="color:white" href="#">Forgot Password</a>
+							
+							</div>
+								
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				
+    
+    </div>
+  </div>
+</div>
 
 
 <div class="container-fluid" id="main1">
